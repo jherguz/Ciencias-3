@@ -1,0 +1,3 @@
+expresion=[y.split(' ') for y in [x.strip('\n') for x in open ("file.txt","r").readlines()]]
+for y in expresion:
+    print (y)
